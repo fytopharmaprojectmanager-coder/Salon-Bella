@@ -4,7 +4,7 @@ set -euo pipefail
 OUT="${1:-_site}"
 mkdir -p "$OUT/img" "$OUT/video" tmp
 grep -v '^#' assets.txt | grep -v '^\s*$' | while read -r name url; do
-  curl -fsSL --retry 3 -o "tmp/$name.dl" "$url"
+  curl -fsSL --retry 3 -A "Mozilla/5.0" -e "https://www.pexels.com/" -o "tmp/$name.dl" "$url"
   case "$(file -b --mime-type "tmp/$name.dl")" in
     image/jpeg) mv "tmp/$name.dl" "tmp/$name.jpg"; src="tmp/$name.jpg" ;;
     image/png)  mv "tmp/$name.dl" "tmp/$name.png"; src="tmp/$name.png" ;;
@@ -16,8 +16,11 @@ grep -v '^#' assets.txt | grep -v '^\s*$' | while read -r name url; do
       cwebp -quiet -q 80 -resize 1800 0 "$src" -o "$OUT/img/hero.webp"
       ffmpeg -nostdin -loglevel error -y -i "$src" -vf "scale=1200:630:force_original_aspect_ratio=increase,crop=1200:630" -q:v 4 "$OUT/img/og.jpg" ;;
     video-hero)
-      ffmpeg -nostdin -loglevel error -y -i "$src" -an -c:v libx264 -preset slow -crf 27 \
-        -filter_complex "[0:v]scale=1280:-2,fps=30,split[a][b];[b]reverse[r];[a][r]concat=n=2:v=1:a=0" -pix_fmt yuv420p -movflags +faststart "$OUT/video/hero.mp4" ;;
+      ffmpeg -nostdin -loglevel error -y -i "$src" -an -c:v libx264 -preset slow -crf 28 \
+        -vf "scale=1280:-2,fps=24" -pix_fmt yuv420p -movflags +faststart "$OUT/video/hero.mp4"
+      ffmpeg -nostdin -loglevel error -y -ss 1 -i "$src" -frames:v 1 tmp/poster.png
+      cwebp -quiet -q 80 -resize 1280 0 tmp/poster.png -o "$OUT/img/hero.webp"
+      ffmpeg -nostdin -loglevel error -y -i tmp/poster.png -vf "scale=1200:630:force_original_aspect_ratio=increase,crop=1200:630" -q:v 4 "$OUT/img/og.jpg" ;;
     *)
       cwebp -quiet -q 78 -resize 1000 0 "$src" -o "$OUT/img/$name.webp" ;;
   esac

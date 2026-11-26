@@ -1,6 +1,5 @@
 # meno URL – pri každom nahratí ich GitHub Actions stiahne a zmenší
-# hero + video: Higgsfield (AI); ostatné: Unsplash (voľná licencia)
-hero https://d8j0ntlcm91z4.cloudfront.net/user_3MTZnFvjkCL177G4s4ZFTQoPxbl/hf_20261126_180120_70d5c421-5d09-46d4-a17c-6d73c2ede1c3.png
+# video: Pexels (voľná licencia, pexels.com/license); fotky: Unsplash (unsplash.com/license)
 strihanie https://images.unsplash.com/photo-1719464454959-9cf304ef4774?w=1600&q=85&fm=jpg
 kupanie https://images.unsplash.com/photo-1611173622933-91942d394b04?w=1600&q=85&fm=jpg
 trimovanie https://images.unsplash.com/photo-1580467277788-c6e040296602?w=1600&q=85&fm=jpg
@@ -9,7 +8,7 @@ g1 https://images.unsplash.com/photo-1772437883387-8076cf660c65?w=1600&q=85&fm=j
 g2 https://images.unsplash.com/photo-1678153184494-1f6fc14a673d?w=1600&q=85&fm=jpg
 g3 https://images.unsplash.com/photo-1709777571247-39ad71a2d86e?w=1600&q=85&fm=jpg
 g4 https://images.unsplash.com/photo-1547482354-89d4259dbc4b?w=1600&q=85&fm=jpg
-g5 https://images.unsplash.com/photo-1528846104175-4fd300ee59da?w=1600&q=85&fm=jpg
+g5 https://images.unsplash.com/photo-1579807351146-e6dd49462635?w=1600&q=85&fm=jpg
 g6 https://images.unsplash.com/photo-1625316708582-7c38734be31d?w=1600&q=85&fm=jpg
 g7 https://images.unsplash.com/photo-1577447310651-8453e529e838?w=1600&q=85&fm=jpg
-video-hero https://d8j0ntlcm91z4.cloudfront.net/user_3MTZnFvjkCL177G4s4ZFTQoPxbl/hf_20261126_180302_6a22c08c-fdee-4099-a9f0-e93b7d5cd091.mp4
+video-hero https://videos.pexels.com/video-files/8498676/8498676-hd_1280_720_24fps.mp4
