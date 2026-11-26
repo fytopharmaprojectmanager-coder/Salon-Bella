@@ -1,10 +1,15 @@
-# meno URL (stiahne a zmenší GitHub Actions pri každom nahratí)
-trimovanie https://d8j0ntlcm91z4.cloudfront.net/user_3MTZnFvjkCL177G4s4ZFTQoPxbl/hf_20261126_142404_f331d15d-0590-429e-a3e9-5a59692c6c95.png
-stenatko https://d8j0ntlcm91z4.cloudfront.net/user_3MTZnFvjkCL177G4s4ZFTQoPxbl/hf_20261126_142405_668063d4-6930-4172-81b2-872908738040.png
-pazuriky https://d8j0ntlcm91z4.cloudfront.net/user_3MTZnFvjkCL177G4s4ZFTQoPxbl/hf_20261126_142406_c4c5850f-a02d-42a8-8cd5-c7e89e9af73f.png
-jorksir https://d8j0ntlcm91z4.cloudfront.net/user_3MTZnFvjkCL177G4s4ZFTQoPxbl/hf_20261126_142406_f9705d43-af64-4b06-a686-2286de615547.png
-kupanie https://d8j0ntlcm91z4.cloudfront.net/user_3MTZnFvjkCL177G4s4ZFTQoPxbl/hf_20261126_142411_c07f259f-b440-4bec-b4f3-c5dab9f395a7.png
-hero https://d8j0ntlcm91z4.cloudfront.net/user_3MTZnFvjkCL177G4s4ZFTQoPxbl/hf_20261126_142412_9c4fd809-11ad-48a9-9b38-a6f91fd2f2d0.png
-strihanie https://d8j0ntlcm91z4.cloudfront.net/user_3MTZnFvjkCL177G4s4ZFTQoPxbl/hf_20261126_142412_da1442ee-c055-4946-a45b-4f5a5162509f.png
-pudel https://d8j0ntlcm91z4.cloudfront.net/user_3MTZnFvjkCL177G4s4ZFTQoPxbl/hf_20261126_142414_21cd7537-93f0-42aa-bba3-cd6488fd3b23.png
-video-hero https://d8j0ntlcm91z4.cloudfront.net/user_3MTZnFvjkCL177G4s4ZFTQoPxbl/hf_20261126_143328_cf509bcb-c272-4a3f-9e5b-57508f6c3013.mp4
+# meno URL – pri každom nahratí ich GitHub Actions stiahne a zmenší
+# hero + video: Higgsfield (AI); ostatné: Unsplash (voľná licencia)
+hero https://d8j0ntlcm91z4.cloudfront.net/user_3MTZnFvjkCL177G4s4ZFTQoPxbl/hf_20261126_180120_70d5c421-5d09-46d4-a17c-6d73c2ede1c3.png
+strihanie https://images.unsplash.com/photo-1719464454959-9cf304ef4774?w=1600&q=85&fm=jpg
+kupanie https://images.unsplash.com/photo-1611173622933-91942d394b04?w=1600&q=85&fm=jpg
+trimovanie https://images.unsplash.com/photo-1580467277788-c6e040296602?w=1600&q=85&fm=jpg
+stenatko https://images.unsplash.com/photo-1599709606362-2078844247fc?w=1600&q=85&fm=jpg
+g1 https://images.unsplash.com/photo-1772437883387-8076cf660c65?w=1600&q=85&fm=jpg
+g2 https://images.unsplash.com/photo-1678153184494-1f6fc14a673d?w=1600&q=85&fm=jpg
+g3 https://images.unsplash.com/photo-1709777571247-39ad71a2d86e?w=1600&q=85&fm=jpg
+g4 https://images.unsplash.com/photo-1547482354-89d4259dbc4b?w=1600&q=85&fm=jpg
+g5 https://images.unsplash.com/photo-1528846104175-4fd300ee59da?w=1600&q=85&fm=jpg
+g6 https://images.unsplash.com/photo-1625316708582-7c38734be31d?w=1600&q=85&fm=jpg
+g7 https://images.unsplash.com/photo-1577447310651-8453e529e838?w=1600&q=85&fm=jpg
+video-hero https://d8j0ntlcm91z4.cloudfront.net/user_3MTZnFvjkCL177G4s4ZFTQoPxbl/hf_20261126_180302_6a22c08c-fdee-4099-a9f0-e93b7d5cd091.mp4
