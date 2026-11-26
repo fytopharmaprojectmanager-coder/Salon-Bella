@@ -1,0 +1,10 @@
+# meno URL (stiahne a zmenší GitHub Actions pri každom nahratí)
+trimovanie https://d8j0ntlcm91z4.cloudfront.net/user_3MTZnFvjkCL177G4s4ZFTQoPxbl/hf_20261126_142404_f331d15d-0590-429e-a3e9-5a59692c6c95.png
+stenatko https://d8j0ntlcm91z4.cloudfront.net/user_3MTZnFvjkCL177G4s4ZFTQoPxbl/hf_20261126_142405_668063d4-6930-4172-81b2-872908738040.png
+pazuriky https://d8j0ntlcm91z4.cloudfront.net/user_3MTZnFvjkCL177G4s4ZFTQoPxbl/hf_20261126_142406_c4c5850f-a02d-42a8-8cd5-c7e89e9af73f.png
+jorksir https://d8j0ntlcm91z4.cloudfront.net/user_3MTZnFvjkCL177G4s4ZFTQoPxbl/hf_20261126_142406_f9705d43-af64-4b06-a686-2286de615547.png
+kupanie https://d8j0ntlcm91z4.cloudfront.net/user_3MTZnFvjkCL177G4s4ZFTQoPxbl/hf_20261126_142411_c07f259f-b440-4bec-b4f3-c5dab9f395a7.png
+hero https://d8j0ntlcm91z4.cloudfront.net/user_3MTZnFvjkCL177G4s4ZFTQoPxbl/hf_20261126_142412_9c4fd809-11ad-48a9-9b38-a6f91fd2f2d0.png
+strihanie https://d8j0ntlcm91z4.cloudfront.net/user_3MTZnFvjkCL177G4s4ZFTQoPxbl/hf_20261126_142412_da1442ee-c055-4946-a45b-4f5a5162509f.png
+pudel https://d8j0ntlcm91z4.cloudfront.net/user_3MTZnFvjkCL177G4s4ZFTQoPxbl/hf_20261126_142414_21cd7537-93f0-42aa-bba3-cd6488fd3b23.png
+video-hero https://d8j0ntlcm91z4.cloudfront.net/user_3MTZnFvjkCL177G4s4ZFTQoPxbl/hf_20261126_143328_cf509bcb-c272-4a3f-9e5b-57508f6c3013.mp4
