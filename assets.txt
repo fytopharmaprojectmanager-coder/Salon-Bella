@@ -11,4 +11,4 @@ g4 https://images.unsplash.com/photo-1547482354-89d4259dbc4b?w=1600&q=85&fm=jpg
 g5 https://images.unsplash.com/photo-1579807351146-e6dd49462635?w=1600&q=85&fm=jpg
 g6 https://images.unsplash.com/photo-1625316708582-7c38734be31d?w=1600&q=85&fm=jpg
 g7 https://images.unsplash.com/photo-1577447310651-8453e529e838?w=1600&q=85&fm=jpg
-video-hero https://videos.pexels.com/video-files/3299684/3299684-hd_1920_1080_30fps.mp4
+video-hero https://videos.pexels.com/video-files/19154584/19154584-hd_1920_1080_60fps.mp4
