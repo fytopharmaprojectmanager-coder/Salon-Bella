@@ -16,8 +16,8 @@ grep -v '^#' assets.txt | grep -v '^\s*$' | while read -r name url; do
       cwebp -quiet -q 80 -resize 1800 0 "$src" -o "$OUT/img/hero.webp"
       ffmpeg -nostdin -loglevel error -y -i "$src" -vf "scale=1200:630:force_original_aspect_ratio=increase,crop=1200:630" -q:v 4 "$OUT/img/og.jpg" ;;
     video-hero)
-      ffmpeg -nostdin -loglevel error -y -i "$src" -an -c:v libx264 -preset slow -crf 28 \
-        -vf "scale=1280:-2,fps=24" -pix_fmt yuv420p -movflags +faststart "$OUT/video/hero.mp4"
+      ffmpeg -nostdin -loglevel error -y -ss 0.3 -t 20 -i "$src" -an -c:v libx264 -preset slow -crf 28 \
+        -vf "scale=1280:-2,fps=30" -pix_fmt yuv420p -movflags +faststart "$OUT/video/hero.mp4"
       ffmpeg -nostdin -loglevel error -y -ss 1 -i "$src" -frames:v 1 tmp/poster.png
       cwebp -quiet -q 80 -resize 1280 0 tmp/poster.png -o "$OUT/img/hero.webp"
       ffmpeg -nostdin -loglevel error -y -i tmp/poster.png -vf "scale=1200:630:force_original_aspect_ratio=increase,crop=1200:630" -q:v 4 "$OUT/img/og.jpg" ;;
