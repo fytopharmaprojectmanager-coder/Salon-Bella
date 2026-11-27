@@ -8,7 +8,7 @@
 <meta property="og:title" content="Salón pre psov Bella – Malacky">
 <meta property="og:description" content="Kúpanie, strihanie a trimovanie psíkov s citlivým prístupom. Martina Benku 51B, Malacky.">
 <meta property="og:image" content="https://fytopharmaprojectmanager-coder.github.io/Salon-Bella/img/og.jpg">
-<link rel="preload" as="image" href="img/hero.webp?v=5" fetchpriority="high">
+<link rel="preload" as="image" href="img/hero.webp?v=6" fetchpriority="high">
 <link rel="icon" href="img/favicon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -194,9 +194,7 @@ footer .wrap{display:flex;flex-wrap:wrap;gap:12px 28px;justify-content:space-bet
       </div>
     </div>
     <div class="shot rise">
-      <video id="hero-v" autoplay muted loop playsinline preload="metadata" poster="img/hero.webp?v=5" aria-label="Hnedý psík so zavretými očami si v salóne užíva česanie">
-        <source src="video/hero.mp4?v=5" type="video/mp4">
-      </video>
+      <img src="img/hero.webp?v=6" alt="Pani v salóne jemne drží psíkovi bradu a češe ho, psík spokojne privrie oči" fetchpriority="high" width="1600" height="900">
       <div class="tag"><b>Salón Bella</b>Martina Benku 51B<span class="opt">, Malacky</span><br>Zatvárame o 18:00</div>
     </div>
   </section>
@@ -274,7 +272,7 @@ footer .wrap{display:flex;flex-wrap:wrap;gap:12px 28px;justify-content:space-bet
           <span>Pozrite si náš Facebook →</span>
         </a>
       </div>
-      <p class="small">Ilustračné fotografie a video: <a href="https://unsplash.com/license" target="_blank" rel="noopener">Unsplash</a>, <a href="https://www.pexels.com/license/" target="_blank" rel="noopener">Pexels</a>.</p>
+      <p class="small">Ilustračné fotografie: <a href="https://unsplash.com/license" target="_blank" rel="noopener">Unsplash</a>, <a href="https://www.pexels.com/license/" target="_blank" rel="noopener">Pexels</a>.</p>
     </div>
   </section>
 
@@ -344,10 +342,6 @@ footer .wrap{display:flex;flex-wrap:wrap;gap:12px 28px;justify-content:space-bet
 <script>
 {
   document.getElementById('yr').textContent = new Date().getFullYear();
-
-  const v = document.getElementById('hero-v');
-  const slow = navigator.connection && (navigator.connection.saveData || /2g/.test(navigator.connection.effectiveType || ''));
-  if (v && (matchMedia('(prefers-reduced-motion: reduce)').matches || slow)) { v.removeAttribute('autoplay'); v.pause(); }
 
   const items = document.querySelectorAll('.rise');
   const reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
